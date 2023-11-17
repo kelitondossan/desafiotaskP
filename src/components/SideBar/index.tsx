@@ -108,10 +108,8 @@ const SideBar: React.FC<ButtonProps> = ({ cartOpen }) => {
             <span>Total:</span>
             <span>R${cart.totalPrice}</span>
           </TotalContainer>
-          <BottomButton onClick={handleCompraRealizada} disabled={compraRealizada}>
-        {compraRealizada ? 'Compra realizada!' : 'Finalizar Compra'}
-      </BottomButton>       
-       </div>
+          <BottomButton onClick={ handleCompraRealizada}>Finalizar Compra</BottomButton>
+        </div>
       </SideContainer>
     </>
   );
