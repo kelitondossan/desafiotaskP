@@ -93,7 +93,7 @@ const SideBar: React.FC<ButtonProps> = ({ cartOpen }) => {
             <span>Total:</span>
             <span>R${cart.totalPrice}</span>
           </TotalContainer>
-          <BottomButton>Finalizar Compra</BottomButton>
+          <BottomButton onClick="compra realizada com sucesso">Finalizar Compra</BottomButton>
         </div>
       </SideContainer>
     </>
