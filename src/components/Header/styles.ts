@@ -8,7 +8,7 @@ export const HeaderContainer = styled.div`
     top: 0;
     width: 100%;
     z-index: 11;
-    background-color: #0F52BA;
+    background-color: black;
 `;
 export const NavContainer = styled.div`
     display: flex;
