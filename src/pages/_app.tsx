@@ -9,7 +9,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
       <Provider store={store}>
-        <ToastContainer position="bottom-left" autoClose={1000} theme="light" />
+        <ToastContainer position="bottom-left" autoClose={1000} theme="dark" />
         <Component {...pageProps} />
         <GlobalStyles />
       </Provider>
