@@ -25,18 +25,8 @@ import {
 interface ButtonProps {
   cartOpen: boolean;
 }
-const SeuComponente = () => {
-  const [compraRealizada, setCompraRealizada] = useState(false);
-const handleCompraRealizada = () => {
-  // Lógica para a compra realizada com sucesso
-  // Pode incluir chamadas de API, atualizações de estado, etc.
 
-  // Defina o estado para indicar que a compra foi realizada
-  setCompraRealizada(true);
 
-  // Exibir alerta
-  alert('Compra realizada com sucesso!');
-};
 
 
 
@@ -108,7 +98,7 @@ const SideBar: React.FC<ButtonProps> = ({ cartOpen }) => {
             <span>Total:</span>
             <span>R${cart.totalPrice}</span>
           </TotalContainer>
-          <BottomButton onClick={ handleCompraRealizada}>Finalizar Compra</BottomButton>
+          <BottomButton >Finalizar Compra</BottomButton>
         </div>
       </SideContainer>
     </>
