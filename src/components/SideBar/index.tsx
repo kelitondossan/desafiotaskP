@@ -111,6 +111,7 @@ const SideBar: React.FC<ButtonProps> = ({ cartOpen }) => {
           <BottomButton onClick={handleCompraRealizada} disabled={compraRealizada}>
         {compraRealizada ? 'Compra realizada!' : 'Finalizar Compra'}
       </BottomButton>       
+       </div>
       </SideContainer>
     </>
   );
