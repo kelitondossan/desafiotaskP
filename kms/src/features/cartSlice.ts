@@ -25,7 +25,7 @@ const CartSlice = createSlice({
             );
             addItem ? (addItem.quantity = addItem.quantity + 1 ) : state.cartItems.push({...action.payload, quantity: 1});
             
-            ShowToast({type: 'success', message: `${action.payload.name} adicionado ao carrinho`})
+            ShowToast({type: 'success', message: `${action.payload.name} No carrinho`})
         },
         increase: (state, action) => {
             
